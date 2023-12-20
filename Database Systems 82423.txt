@@ -1,0 +1,23 @@
+Database Systems 8/24/23:
+
+- Spread sheets have difficulty in maintaining relationships between files 
+- Spread sheets don't have java funtionality
+
+
+- Client sends queries across the network to the DB server
+- So the queries mmust be efficent 
+
+
+Super Keys - Subset of attributes that uniquely identify each tuple (a set of candidate keys)
+
+Candidate Keys - Minimal super key (single attribute)
+
+Primary Keys - Choose any of the candidate keys
+	     - Represented by “underline” under the selected attributes
+	     - (Programmer selects the key that will uniquely identify tuples)
+
+Set vs. Bag - If a relation has a primary key, then the relation is a set and not a bag
+	    - (There can be no duplicates in sets, but bags can have duplicates)
+
+
+
